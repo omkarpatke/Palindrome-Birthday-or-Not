@@ -22,7 +22,8 @@ body{
     margin-top: 0;
 }
 .heading{
-    font-size: 2.5rem;
+    font-size: 2.4rem;
+    
 }
 .input{
     display: flex;
@@ -102,4 +103,22 @@ body{
     list-style: none;
     text-decoration: none;
     font-size: 1.1rem;
+}
+
+@media(max-width:1000px) {
+    
+    .input{
+        width: 43vw;
+    }
+    .cheakbtn{
+        height: 5vh;
+        width: 31vw;
+    }
+    .footer{
+        margin-top: 2rem;
+    }
+    .footer ul li{
+        margin: 0.2rem;
+        font-size: small;
+    }
 }
