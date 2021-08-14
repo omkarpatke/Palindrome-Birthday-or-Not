@@ -7,9 +7,10 @@ var Outputimg = document.querySelector(".img");
 
 Cheakbtn.addEventListener("click" ,clickHandler);
 
+
+
 function clickHandler(){
-    const value = Input.value;
-    var date = value.split("-");
+   var input = reverse(Input.value);
+   console.log(input)
 }
-   
 
