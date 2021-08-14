@@ -12,6 +12,9 @@ body{
     height: auto;
     width: 40rem;
     margin-top: 0;
+    box-shadow: 1px 2px 3px;
+    padding: 2rem;
+    padding-top:0;
 }
 .para1{
     font-size: 1.1rem;
@@ -55,6 +58,13 @@ body{
     background-color: white;
     color: black;
     border: 2px solid #66263f;
+}
+.img{
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    height: 15vh;
+    width: 9vw;
 }
 .output{
     display: flex;
