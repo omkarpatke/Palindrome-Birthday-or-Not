@@ -119,6 +119,7 @@ body{
     .container{
         padding: 10px;
         margin: 0;
+        margin-top: 3rem;
     }
     
     .heading{
@@ -136,6 +137,7 @@ body{
     }
     .footer{
         margin-top: 2rem;
+        
     }
     .footer ul li{
         margin: 0.2rem;
