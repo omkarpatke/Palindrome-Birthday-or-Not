@@ -155,13 +155,23 @@ function clickHandler(e){
         }
         var isPalindrome = cheakPalindromeForAllDateFormats(date);
         if(isPalindrome){
-            OutputDiv.classList.remove('hidden');
-            OutputDiv.innerHTML = ' Your BirthDate is Palindrome!!';
+            Outputimg.classList.remove('hidden');
+            setTimeout(() =>{
+                OutputDiv.classList.remove('hidden');
+                OutputDiv.innerHTML = ' Your BirthDate is Palindrome!!';
+                Outputimg.classList.add('hidden');
+            },3000);
         }
         else{
             var [ctr , nextDate] = getNextpalindromeDate(date);
-            OutputDiv.classList.remove('hidden');
-            OutputDiv.innerHTML = `The next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${ctr} days!`;
+            Outputimg.classList.remove('hidden');
+            setTimeout(() =>{
+                OutputDiv.classList.remove('hidden');
+                OutputDiv.innerHTML = `The next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${ctr} days!`;
+                Outputimg.classList.add('hidden');
+            },3000);
+            
+            
         }
 
         
