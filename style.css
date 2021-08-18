@@ -134,6 +134,10 @@ body{
     .output{
        margin-bottom: 0rem;
     }
+    .img{
+        height: 18vh;
+        width: 25vw;
+    }
     .cheakbtn{
         height: 5vh;
         width: 31vw;
