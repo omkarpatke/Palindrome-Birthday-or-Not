@@ -145,6 +145,12 @@ return [ctr , nextDate]
 
 function clickHandler(e){
     var birthdate = Input.value;
+
+    if(birthdate === ''){
+        OutputDiv.classList.remove('hidden');
+        OutputDiv.innerHTML = 'Please Fill the Date';        
+
+    }
     
     if(birthdate !== ''){
         var listOfDate = birthdate.split('-');
