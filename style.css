@@ -41,7 +41,7 @@ body{
     border-radius: 2rem;
     padding-left: 1rem;
 }
-.cheakbtn{
+.checkbtn{
     display: flex;
     justify-content: center;
     align-self: center;
@@ -54,7 +54,7 @@ body{
     background-color:#66263f;
     color: white;
 }
-.cheakbtn:hover{
+.checkbtn:hover{
     background-color: white;
     color: black;
     border: 2px solid #66263f;

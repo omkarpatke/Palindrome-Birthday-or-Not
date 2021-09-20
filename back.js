@@ -1,5 +1,5 @@
 var Input = document.querySelector(".input");
-var Cheakbtn = document.querySelector(".cheakbtn");
+var Checkbtn = document.querySelector(".checkbtn");
 var OutputDiv = document.querySelector(".output");
 var Outputimg = document.querySelector(".img");
 
@@ -184,6 +184,6 @@ function clickHandler(e){
     }
 }
 
-Cheakbtn.addEventListener('click' , clickHandler);
+Checkbtn.addEventListener('click' , clickHandler);
 
 
